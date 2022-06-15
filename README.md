@@ -14,7 +14,7 @@ PyGol has written in **Python**(Learning Phase) and, during the test phase, uses
 ## Using PyGol
 
 **PyGol** is free to use for non-commercial research and education. If you do use ILASP for research, we
-ask that you use this citation and relevant papers. Anyone wishing to use PyGol for commercial purposes should contact Dany Varghese (dany.varghese@surrey.ac.uk).
+ask that you use this [citation](https://github.com/danyvarghese/citation/blob/main/pygol.bib) and relevant papers. Anyone wishing to use PyGol for commercial purposes should contact Dany Varghese (dany.varghese@surrey.ac.uk).
 
 The shared-object file **pygol.so** runs in Python. We have converted the basic _Pygol_ code to _C_ code via _Cython_ for efficiency. The current shared-object file is compiled for **Linux x86_64** systems. 
 
