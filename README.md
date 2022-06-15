@@ -12,7 +12,11 @@ PyGol has written in **Python**(Learning Phase) and, during the test phase, uses
 * Meta Inverse Entailment (MIE) for the purpose of automated data science
 
 ## Using PyGol
-The shared object file **pygol.so** runs in Python. We have converted the basic _Pygol_ code to _C_ code via _Cython_ for efficiency. The current shared-object file is compiled for **Linux x86_64** systems. 
+
+**PyGol** is free to use for non-commercial research and education. If you do use ILASP for research, we
+ask that you use this citation and relevant papers. Anyone wishing to use PyGol for commercial purposes should contact Dany Varghese (dany.varghese@surrey.ac.uk).
+
+The shared-object file **pygol.so** runs in Python. We have converted the basic _Pygol_ code to _C_ code via _Cython_ for efficiency. The current shared-object file is compiled for **Linux x86_64** systems. 
 
 for all other systems, you can find the c code in the folder Cython_code and convert it to shared-object by executing the following commands;
 
@@ -20,6 +24,8 @@ for all other systems, you can find the c code in the folder Cython_code and con
 gcc <Python_Environment_Variable> -c -fPIC pygol.c -o pygol.o
 gcc pygol.o -shared -o pygol.so
 ```
+
+
 
 
 
