@@ -112,5 +112,5 @@ model= pygol_learn(Train_P, Train_N,  max_neg=0, max_literals=3, key_size=1,opti
 | F1 Score    | 1 |
 +-------------+---+
 ```
-
-
+## Bug Reports and Feature Requests
+Please submit all bug reports and feature requests as issues on this GitHub repository.
