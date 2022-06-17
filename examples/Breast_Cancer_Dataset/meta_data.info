@@ -1,0 +1,153 @@
+Feature Name : mean radius	 (Encoded) - 4
+	g0	[6.981--11.64]
+	g1	[11.66--13.64]
+	g2	[13.65--16.65]
+	g3	[16.69--28.11]
+Feature Name : mean texture	 (Encoded) - 4
+	g0	[9.71--15.98]
+	g1	[16.02--18.91]
+	g2	[18.94--22.04]
+	g3	[22.07--39.28]
+Feature Name : mean perimeter	 (Encoded) - 4
+	g0	[43.79--74.72]
+	g1	[74.87--85.84]
+	g2	[85.89--103.2]
+	g3	[103.4--188.5]
+Feature Name : mean area	 (Encoded) - 4
+	g0	[143.5--418.7]
+	g1	[419.8--551.7]
+	g2	[552.4--797.8]
+	g3	[798.8--2501.0]
+Feature Name : mean smoothness	 (Encoded) - 4
+	g0	[0.05263--0.08472]
+	g1	[0.08473--0.09384]
+	g2	[0.09387--0.1032]
+	g3	[0.1033--0.1634]
+Feature Name : mean compactness	 (Encoded) - 4
+	g0	[0.01938--0.06373]
+	g1	[0.06374--0.08995]
+	g2	[0.09009--0.1303]
+	g3	[0.1304--0.3454]
+Feature Name : mean concavity	 (Encoded) - 4
+	g0	[0.0--0.03046]
+	g1	[0.03102--0.06195]
+	g2	[0.06335--0.1324]
+	g3	[0.1335--0.4268]
+Feature Name : mean concave points	 (Encoded) - 4
+	g0	[0.0--0.02076]
+	g1	[0.02088--0.0351]
+	g2	[0.03515--0.07488]
+	g3	[0.07507--0.2012]
+Feature Name : mean symmetry	 (Encoded) - 4
+	g0	[0.106--0.1616]
+	g1	[0.1617--0.1807]
+	g2	[0.1809--0.1992]
+	g3	[0.1993--0.304]
+Feature Name : mean fractal dimension	 (Encoded) - 4
+	g0	[0.04996--0.05769]
+	g1	[0.0577--0.062]
+	g2	[0.06201--0.06659]
+	g3	[0.06669--0.09744]
+Feature Name : radius error	 (Encoded) - 4
+	g0	[0.1115--0.2344]
+	g1	[0.2345--0.3283]
+	g2	[0.3305--0.4956]
+	g3	[0.4993--2.873]
+Feature Name : texture error	 (Encoded) - 4
+	g0	[0.3602--0.8155]
+	g1	[0.8163--1.078]
+	g2	[1.079--1.486]
+	g3	[1.489--4.885]
+Feature Name : perimeter error	 (Encoded) - 4
+	g0	[0.757--1.612]
+	g1	[1.614--2.312]
+	g2	[2.326--3.43]
+	g3	[3.445--21.98]
+Feature Name : area error	 (Encoded) - 4
+	g0	[6.802--18.15]
+	g1	[18.19--25.22]
+	g2	[25.44--48.29]
+	g3	[48.31--542.2]
+Feature Name : smoothness error	 (Encoded) - 4
+	g0	[0.001713--0.00508]
+	g1	[0.005089--0.006356]
+	g2	[0.006369--0.008146]
+	g3	[0.008166--0.03113]
+Feature Name : compactness error	 (Encoded) - 4
+	g0	[0.002252--0.01308]
+	g1	[0.01315--0.02073]
+	g2	[0.02075--0.03318]
+	g3	[0.03345--0.1354]
+Feature Name : concavity error	 (Encoded) - 4
+	g0	[0.0--0.01556]
+	g1	[0.01564--0.02645]
+	g2	[0.02647--0.04303]
+	g3	[0.04305--0.396]
+Feature Name : concave points error	 (Encoded) - 4
+	g0	[0.0--0.00762]
+	g1	[0.007624--0.01083]
+	g2	[0.01087--0.01499]
+	g3	[0.01506--0.05279]
+Feature Name : symmetry error	 (Encoded) - 4
+	g0	[0.007882--0.01503]
+	g1	[0.01516--0.01897]
+	g2	[0.01898--0.02427]
+	g3	[0.02428--0.07895]
+Feature Name : fractal dimension error	 (Encoded) - 4
+	g0	[0.0008948--0.00225]
+	g1	[0.002256--0.00322]
+	g2	[0.003224--0.004572]
+	g3	[0.004583--0.02984]
+Feature Name : worst radius	 (Encoded) - 4
+	g0	[7.93--12.97]
+	g1	[12.98--15.15]
+	g2	[15.2--19.82]
+	g3	[19.85--36.04]
+Feature Name : worst texture	 (Encoded) - 4
+	g0	[12.02--20.96]
+	g1	[20.98--25.44]
+	g2	[25.45--30.25]
+	g3	[30.28--49.54]
+Feature Name : worst perimeter	 (Encoded) - 4
+	g0	[50.41--83.24]
+	g1	[83.51--96.31]
+	g2	[96.42--125.0]
+	g3	[125.1--251.2]
+Feature Name : worst area	 (Encoded) - 4
+	g0	[185.2--514.0]
+	g1	[515.3--680.6]
+	g2	[683.4--1070.0]
+	g3	[1084.0--4254.0]
+Feature Name : worst smoothness	 (Encoded) - 4
+	g0	[0.07117--0.1134]
+	g1	[0.1135--0.1314]
+	g2	[0.1315--0.1491]
+	g3	[0.1492--0.2226]
+Feature Name : worst compactness	 (Encoded) - 4
+	g0	[0.02729--0.1457]
+	g1	[0.146--0.2167]
+	g2	[0.217--0.342]
+	g3	[0.3429--1.058]
+Feature Name : worst concavity	 (Encoded) - 4
+	g0	[0.0--0.1181]
+	g1	[0.1186--0.2302]
+	g2	[0.231--0.3865]
+	g3	[0.3879--1.252]
+Feature Name : worst concave points	 (Encoded) - 4
+	g0	[0.0--0.06664]
+	g1	[0.06696--0.1012]
+	g2	[0.1015--0.1663]
+	g3	[0.1667--0.291]
+Feature Name : worst symmetry	 (Encoded) - 4
+	g0	[0.1565--0.25]
+	g1	[0.2502--0.2818]
+	g2	[0.2819--0.3198]
+	g3	[0.32--0.6638]
+Feature Name : worst fractal dimension	 (Encoded) - 4
+	g0	[0.05504--0.07115]
+	g1	[0.07123--0.07993]
+	g2	[0.07999--0.09209]
+	g3	[0.09211--0.2075]
+target
+	0.0	pos_example.f
+	1.0	neg_example.n
