@@ -117,7 +117,7 @@ model= pygol_learn(Train_P, Train_N,  max_neg=0, max_literals=3, key_size=1,opti
 - Dealing with typical data science dataset :- **pygol_auto_learn()**
 - Dealing with typical data science dataset(CV) :- **pygol_auto_cross_validation()**
 
-For further information, please find the [manual]().
+For further information, please find the [manual](https://github.com/danyvarghese/PyGol/blob/debbe3024fda4cfaf33936e76dfd9455e455c39c/Manual_Pygol.pdf).
 
 ## Bug Reports and Feature Requests
 Please submit all bug reports and feature requests as issues on this GitHub repository.
