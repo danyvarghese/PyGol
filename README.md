@@ -14,7 +14,7 @@ PyGol is novel Inductive Logic Programming(ILP) system based on **Meta Inverse E
 ## Using PyGol
 **PyGol** package is provided as a **C** code. The shared-object file **pygol.so** runs in Python. The current shared-object file is compiled for **Linux x86_64** systems.
 
-For all other systems, you can find the **C** code in the folder Cython_code and convert it to shared-object by executing the following commands;
+For all other systems, you can find the **C** code in the folder _Shared_object_file_ and convert it to shared-object by executing the following commands;
 
 ```cmd
 gcc <Python_Environment_Variable> -c -fPIC pygol.c -o pygol.o
