@@ -20,7 +20,7 @@ gcc <Python_Environment_Variable> -c -fPIC pygol.c -o pygol.o
 gcc pygol.o -shared -o pygol.so
 ```
 
-**PyGol** is free to use for non-commercial research and education. If you use ILASP for research, we ask you to use this [citation](https://github.com/danyvarghese/citation/blob/ab35b34b69dfff96791ad6fe72c74c726d2d3356/pygol.bib) and relevant papers. Anyone wishing to use PyGol for commercial purposes should contact Dany Varghese(dany.varghese@surrey.ac.uk).
+**PyGol** is free to use for non-commercial research and education. If you use PyGol for research, we ask you to use this [citation](https://github.com/danyvarghese/citation/blob/ab35b34b69dfff96791ad6fe72c74c726d2d3356/pygol.bib) and relevant papers. Anyone wishing to use PyGol for commercial purposes should contact Dany Varghese(dany.varghese@surrey.ac.uk).
 
 ## Example Problem
 PyGol requires four inputs, either in the form of files or a list
