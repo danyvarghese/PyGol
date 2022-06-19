@@ -112,10 +112,12 @@ model= pygol_learn(Train_P, Train_N,  max_neg=0, max_literals=3, key_size=1,opti
 +-------------+---+
 ```
 ## Learning Settings
-- ILP Normal Learning Approach :- **pygol_learn()**
+- ILP  Learning Approach :- **pygol_learn()**
 - ILP Cross-Validation Approach :- **pygol_cross_validation()**
-- Dealing with typical dataset :- **pygol_auto_learn()**
-- Dealing with typical dataset(CV) :- **pygol_auto_cross_validation()**
+- Dealing with typical data science dataset :- **pygol_auto_learn()**
+- Dealing with typical data science dataset(CV) :- **pygol_auto_cross_validation()**
+
+For further information, please find the [manual]().
 
 ## Bug Reports and Feature Requests
 Please submit all bug reports and feature requests as issues on this GitHub repository.
