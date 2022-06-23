@@ -1,5 +1,5 @@
 # PyGol
-PyGol is novel Inductive Logic Programming(ILP) system based on **Meta Inverse Entailment(MIE)**.  MIE is similar to Mode-Directed Inverse Entailment (MDIE) but does not require mode declarations. 
+PyGol is novel Inductive Logic Programming(ILP) system based on **Meta Inverse Entailment(MIE)** using Python. MIE is similar to Mode-Directed Inverse Entailment (MDIE) but does not require mode declarations. MIE can be applied to tabular and relational datasets with minimal user intervention or parameter setting. In MIE, each hypothesis clause is derivable from a **meta theory** generated automatically from the background knowledge. Meta theory can also be viewed as a higher-order language bias that defines the hypothesis space. 
 
 **PyGol** is provided as a Python library which can be used in Python programs (e.g. Jupyter notebooks). It can also connect with **SWI-Prolog** via **Pyswip**. 
 
