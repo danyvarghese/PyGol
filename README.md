@@ -5,7 +5,7 @@
 
 **PyGol** is free to use for non-commercial research and education. If you use PyGol for research, please cite the paper : 
 ```cmd
-Dany Varghese and  Alireza Tamaddoni-Nezhad,Towards Automated Data Science using
+Dany Varghese and  Alireza Tamaddoni-Nezhad, Towards Automated Data Science using
 Meta Inverse Entailment,  In: Proceeding of ILP 2022 (to appear).
 ```
 Anyone wishing to use PyGol for commercial purposes should contact either Dany Varghese(dany.varghese@surrey.ac.uk) or Alireza Tamaddoni-Nezhad(a.tamaddoni-nezhad@surrey.ac.uk).
