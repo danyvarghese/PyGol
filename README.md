@@ -3,6 +3,12 @@
 
 **PyGol** is provided as a Python library which can be used in Python programs (e.g. Jupyter notebooks). It can also connect with **SWI-Prolog** via **Pyswip**. 
 
+**PyGol** is free to use for non-commercial research and education. If you use PyGol for research, please cite the paper : 
+Dany Varghese and  Alireza Tamaddoni-Nezhad, **Towards Automated Data Science using
+Meta Inverse Entailment**,  In: Proceeding of ILP 2022 (to appear).
+
+Anyone wishing to use PyGol for commercial purposes should contact either Dany Varghese(dany.varghese@surrey.ac.uk) or Alireza Tamaddoni-Nezhad(a.tamaddoni-nezhad@surrey.ac.uk).
+
 ## Contributions
 * An ILP approach **Meta Inverse Entailment(MIE)**
 * An algorithm to generate **Meta Clause Set(MCS) **
@@ -20,9 +26,6 @@ For all other systems, you can find the **C** code in the folder **"Code"** and 
 gcc <Python_Environment_Variable> -c -fPIC pygol.c -o pygol.o
 gcc pygol.o -shared -o pygol.so
 ```
-
-**PyGol** is free to use for non-commercial research and education. If you use PyGol for research, we ask you to use this [citation](https://github.com/danyvarghese/citation/blob/ab35b34b69dfff96791ad6fe72c74c726d2d3356/pygol.bib) and relevant papers. Anyone wishing to use PyGol for commercial purposes should contact either Dany Varghese(dany.varghese@surrey.ac.uk) or Alireza Tamaddoni-Nezhad(a.tamaddoni-nezhad@surrey.ac.uk).
-
 ## Example Problem
 PyGol requires four inputs, either in the form of files or a list
 1. Background knowledge (BK)
