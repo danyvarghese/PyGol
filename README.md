@@ -4,9 +4,9 @@
 **PyGol** is provided as a Python library which can be used in Python programs (e.g. Jupyter notebooks). It can also connect with **SWI-Prolog** via **Pyswip**. 
 
 **PyGol** is free to use for non-commercial research and education. If you use PyGol for research, please cite the paper : 
-Dany Varghese and  Alireza Tamaddoni-Nezhad, **Towards Automated Data Science using
+```cmdDany Varghese and  Alireza Tamaddoni-Nezhad, **Towards Automated Data Science using
 Meta Inverse Entailment**,  In: Proceeding of ILP 2022 (to appear).
-
+```
 Anyone wishing to use PyGol for commercial purposes should contact either Dany Varghese(dany.varghese@surrey.ac.uk) or Alireza Tamaddoni-Nezhad(a.tamaddoni-nezhad@surrey.ac.uk).
 
 ## Contributions
