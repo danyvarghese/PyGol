@@ -12,7 +12,7 @@ Anyone wishing to use PyGol for commercial purposes should contact either Dany V
 
 ## Contributions
 * An ILP approach **Meta Inverse Entailment(MIE)**
-* An algorithm to generate **Meta Clause Set(MCS) **
+* An algorithm to generate **Meta Clause Set(MCS)**
 * Defining Most Speific Clause using MCS
 * A new **higher-order** language bias **Meta Theory(MT)** - Automatically generating from MCS
 * **Abductive Learning** using MIE
