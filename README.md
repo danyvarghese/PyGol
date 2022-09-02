@@ -5,8 +5,9 @@
 
 **PyGol** is free to use for non-commercial research and education. If you use PyGol for research, please cite the paper: 
 ```cmd
-Dany Varghese, Didac Barroso-Bergada, David A. Bohan  and  Alireza Tamaddoni-Nezhad, Efficient Abductive Learning of Microbial
-Interactions using Meta Inverse Entailment,  In Proceedings of the 31st International Conference on ILP, Springer, 2022(accepted).
+Dany Varghese, Didac Barroso-Bergada, David A. Bohan  and  Alireza Tamaddoni-Nezhad, 
+Efficient Abductive Learning of Microbial Interactions using Meta Inverse Entailment,  
+In Proceedings of the 31st International Conference on ILP, Springer, 2022(accepted).
 ```
 Anyone wishing to use PyGol for commercial purposes should contact either Dany Varghese(dany.varghese@surrey.ac.uk) or Alireza Tamaddoni-Nezhad(a.tamaddoni-nezhad@surrey.ac.uk).
 
