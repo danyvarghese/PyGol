@@ -1,7 +1,7 @@
 # PyGol
-**PyGol** is novel Inductive Logic Programming(ILP) system based on **Meta Inverse Entailment(MIE)** using Python. MIE is similar to Mode-Directed Inverse Entailment (MDIE) but does not require mode declarations. MIE can be applied to tabular and relational datasets with minimal user intervention or parameter setting. In MIE, each hypothesis clause is derivable from a **meta theory** generated automatically from the background knowledge. Meta theory can also be viewed as a higher-order language bias that defines the hypothesis space. 
+**PyGol** is a novel Inductive Logic Programming(ILP) system based on **Meta Inverse Entailment(MIE)** using Python. MIE is similar to Mode-Directed Inverse Entailment (MDIE) but does not require mode declarations. MIE can be applied to tabular and relational datasets with minimal user intervention or parameter settings. In MIE, each hypothesis clause is derived from a **meta theory** generated automatically from background knowledge. Meta theory can also be viewed as a higher-order language bias that defines the hypothesis space. 
 
-**PyGol** is provided as a Python library which can be used in Python programs (e.g. Jupyter notebooks). It can also connect with **SWI-Prolog** via **Pyswip**. 
+**PyGol** is a Python library that can be used in Python programs (e.g., Jupyter Notebooks). It can also connect with **SWI-Prolog** via **Pyswip**. 
 
 **PyGol** is free to use for non-commercial research and education. If you use PyGol for research, please cite the paper: 
 ```cmd
@@ -13,9 +13,8 @@ Anyone wishing to use PyGol for commercial purposes should contact either Dany V
 
 ## Contributions
 * An ILP approach **Meta Inverse Entailment(MIE)**
-* An algorithm to generate **Meta Clause Set(MCS)**
-* Defining Most Speific Clause using MCS
-* A new **higher-order** language bias **Meta Theory(MT)** - Automatically generating from MCS
+* An algorithm to generate **Bottom Clause of Relevant Literals (BCRL)**
+* A new **higher-order** language bias **Meta Theory (MT)** - Automatically generating from BCRL
 * **Abductive Learning** using MIE
 * Meta Inverse Entailment (MIE) for the purpose of **automated data science**
 
