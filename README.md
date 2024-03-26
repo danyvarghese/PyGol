@@ -128,7 +128,7 @@ PyGol is capable of learning recursive programs where a predicate symbol is pres
 To lean recursive rule, **recursive** and **rule_noise_check** variable should be set as True inside **pygol_learn()**. 
 
 ```Python
-model= pygol.pygol_learn(_ ,_ , ... , rule_noise_check = True, recursive = True)
+model= pygol_learn(_ ,_ , ... , rule_noise_check = True, recursive = True)
 ```
 
 _Please refer to [ancestor relation learning problem](https://github.com/danyvarghese/PyGol/tree/main/examples/ancestor)._
@@ -139,7 +139,7 @@ _Please refer to [ancestor relation learning problem](https://github.com/danyvar
 PyGol can also perform automatic predicate invention and for that **pi** varibale should set as True. 
 
 ```Python
-model= pygol.pygol_learn(_ ,_ , ... ,  pi = True)
+model= pygol_learn(_ ,_ , ... ,  pi = True)
 ```
 
 _Please refer to [grandparent relation learning problem](https://github.com/danyvarghese/PyGol/tree/main/examples/grand_parent)._
