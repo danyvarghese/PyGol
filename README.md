@@ -1,13 +1,13 @@
 # PyGol
 **PyGol** is a novel Inductive Logic Programming(ILP) system based on **Meta Inverse Entailment(MIE)** using Python. MIE is similar to Mode-Directed Inverse Entailment (MDIE) but does not require mode declarations. MIE can be applied to tabular and relational datasets with minimal user intervention or parameter settings. In MIE, each hypothesis clause is derived from a **meta theory** generated automatically from background knowledge. Meta theory can also be viewed as a higher-order language bias that defines the hypothesis space. 
 
-**PyGol** is a Python library that can be used in Python programs (e.g., Jupyter Notebooks). It can also connect with **SWI-Prolog** via **Pyswip**. 
+**PyGol** is a Python library that can be used in Python programs (e.g., Jupyter Notebooks). It can also connect with **SWI-Prolog** via **Janus**. 
 
 **PyGol** is free to use for non-commercial research and education. If you use PyGol for research, please cite the paper: 
 ```cmd
 Dany Varghese, Didac Barroso-Bergada, David A. Bohan  and  Alireza Tamaddoni-Nezhad, 
 Efficient Abductive Learning of Microbial Interactions using Meta Inverse Entailment,  
-In Proceedings of the 31st International Conference on ILP, Springer, 2022(accepted).
+In Proceedings of the 31st International Conference on ILP, Springer, 2022.
 ```
 Anyone wishing to use PyGol for commercial purposes should contact either Dany Varghese(dany.varghese@surrey.ac.uk) or Alireza Tamaddoni-Nezhad(a.tamaddoni-nezhad@surrey.ac.uk).
 
@@ -19,13 +19,12 @@ Anyone wishing to use PyGol for commercial purposes should contact either Dany V
 * Meta Inverse Entailment (MIE) for the purpose of **automated data science**
 
 ## Using PyGol
-**PyGol** package is provided as a **C** code. The shared-object file **pygol.so** runs in Python. The current shared-object file is compiled for **Linux x86_64** systems.
+**PyGol** package is provided as a **C** code. The shared-object file **pygol.so** runs in Python. The current shared-object file is compiled for **Mac M1** systems.
 
-For all other systems, you can find the **C** code in the folder **"Code"** and convert it to shared-object by executing the following commands;
+For all other systems, you can find the **C** code  and convert it to shared-object by executing the **generate_so.py** by following commands;
 
 ```cmd
-gcc <Python_Environment_Variable> -c -fPIC pygol.c -o pygol.o
-gcc pygol.o -shared -o pygol.so
+gcc python3 generate_so.py build_ext --inplace
 ```
 ## Example Problem
 PyGol requires four inputs, either in the form of files or a list
@@ -88,10 +87,10 @@ Train_P, Test_P, Train_N, Test_N=pygol_train_test_split(test_size=0, positive_fi
                                                                  negative_file_dictionary=N)
 
 #Learning Phase/Training Phase using Python
-model= pygol_learn(Train_P, Train_N,  max_neg=0, max_literals=3, key_size=1,optimize=False)
+model= pygol_learn(Train_P, Train_N,  max_neg=0, max_literals=3, key_size=1)
 ```
 
-### Output from Learning Phase
+### Output from learning phase
 ```
 +----------+ Training +----------+
 ['eastbound(A):-has_car(A,B),closed(B),short(B)']
@@ -116,13 +115,36 @@ model= pygol_learn(Train_P, Train_N,  max_neg=0, max_literals=3, key_size=1,opti
 | F1 Score    | 1 |
 +-------------+---+
 ```
-## Learning Settings
+
+##Recursion
+
+PyGol is capable of learning recursive programs where a predicate symbol is present in both the rule's head and its body. 
+
+To lean recursive rule, **recursive** and **rule_noise_check** variable should be set as True inside **pygol_learn()**. 
+
+```Python
+model= pygol.pygol_learn(_ ,_ , ... , rule_noise_check = True, recursive = True)
+```
+
+_Please refer (examples/ancestor)_
+
+
+##Predicate invention
+
+PyGol can also perform automatic predicate invention and for that **pi** varibale should set as True. 
+
+```Python
+model= pygol.pygol_learn(_ ,_ , ... , rule_noise_check = True, recursive = True)
+```
+
+_Please refer (examples/GP)_
+
+## Learning settings
 - ILP  Learning Approach :- **pygol_learn()**
 - ILP Cross-Validation Approach :- **pygol_cross_validation()**
-- Dealing with typical data science dataset :- **pygol_auto_learn()**
-- Dealing with typical data science dataset(CV) :- **pygol_auto_cross_validation()**
+- ILP abduction (Reasoning) :- **pygol_abduction()**
 
 For further information, please find the [manual](https://github.com/danyvarghese/PyGol/blob/debbe3024fda4cfaf33936e76dfd9455e455c39c/Manual_Pygol.pdf).
 
-## Bug Reports and Feature Requests
+## Bug reports and feature requests
 Please submit all bug reports and feature requests as issues on this GitHub repository.
