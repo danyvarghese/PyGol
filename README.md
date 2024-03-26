@@ -29,7 +29,7 @@ Anyone wishing to use PyGol for commercial purposes should contact either Dany V
 For all other systems, you can find the **C** code  and convert it to shared-object by executing the **generate_so.py** by following commands;
 
 ```cmd
-gcc python3 generate_so.py build_ext --inplace
+python3 generate_so.py build_ext --inplace
 ```
 ## Example Problem
 PyGol requires four inputs, either in the form of files or a list
