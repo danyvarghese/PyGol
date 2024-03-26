@@ -126,7 +126,7 @@ To lean recursive rule, **recursive** and **rule_noise_check** variable should b
 model= pygol.pygol_learn(_ ,_ , ... , rule_noise_check = True, recursive = True)
 ```
 
-_Please refer (examples/ancestor)_
+_Please refer to [ancestor relation learning problem](https://github.com/danyvarghese/PyGol/tree/main/examples/ancestor)._
 
 
 ## Predicate invention
@@ -137,7 +137,7 @@ PyGol can also perform automatic predicate invention and for that **pi** varibal
 model= pygol.pygol_learn(_ ,_ , ... , rule_noise_check = True, recursive = True)
 ```
 
-_Please refer (examples/GP)_
+_Please refer to [grandparent relation learning problem](https://github.com/danyvarghese/PyGol/tree/main/examples/gp)._
 
 ## Learning settings
 - ILP  Learning Approach :- **pygol_learn()**
