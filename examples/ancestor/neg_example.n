@@ -1,0 +1,1 @@
+ancestor(princess_diana,queen_mother)
