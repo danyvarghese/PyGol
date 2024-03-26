@@ -116,7 +116,7 @@ model= pygol_learn(Train_P, Train_N,  max_neg=0, max_literals=3, key_size=1)
 +-------------+---+
 ```
 
-##Recursion
+## Recursion
 
 PyGol is capable of learning recursive programs where a predicate symbol is present in both the rule's head and its body. 
 
@@ -129,7 +129,7 @@ model= pygol.pygol_learn(_ ,_ , ... , rule_noise_check = True, recursive = True)
 _Please refer (examples/ancestor)_
 
 
-##Predicate invention
+## Predicate invention
 
 PyGol can also perform automatic predicate invention and for that **pi** varibale should set as True. 
 
