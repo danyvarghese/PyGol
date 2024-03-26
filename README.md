@@ -18,6 +18,11 @@ Anyone wishing to use PyGol for commercial purposes should contact either Dany V
 * **Abductive Learning** using MIE
 * Meta Inverse Entailment (MIE) for the purpose of **automated data science**
 
+#### Requirements
+* [SWI-Prolog](https://www.swi-prolog.org) (9.2.0 or above)
+* [Janus-swi](https://github.com/SWI-Prolog/packages-swipy)
+* [Cython](https://cython.org/)
+
 ## Using PyGol
 **PyGol** package is provided as a **C** code. The shared-object file **pygol.so** runs in Python. The current shared-object file is compiled for **Mac M1** systems.
 
@@ -137,7 +142,7 @@ PyGol can also perform automatic predicate invention and for that **pi** varibal
 model= pygol.pygol_learn(_ ,_ , ... , rule_noise_check = True, recursive = True)
 ```
 
-_Please refer to [grandparent relation learning problem](https://github.com/danyvarghese/PyGol/tree/main/examples/gp)._
+_Please refer to [grandparent relation learning problem](https://github.com/danyvarghese/PyGol/tree/main/examples/grand_parent)._
 
 ## Learning settings
 - ILP  Learning Approach :- **pygol_learn()**
