@@ -3,7 +3,7 @@
 
 **PyGol** is a Python library that can be used in Python programs (e.g., Jupyter Notebooks). It can also connect with **SWI-Prolog** via **Janus**. 
 
-**PyGol** is free to use for non-commercial research and education. If you use PyGol for research, please cite the paper: 
+**PyGol** is free to use for non-commercial research and education. If you use PyGol for research, please cite the paper: [Efficient Abductive Learning of Microbial Interactions using Meta Inverse Entailment](https://link.springer.com/chapter/10.1007/978-3-031-55630-2_10).
 ```cmd
 Dany Varghese, Didac Barroso-Bergada, David A. Bohan  and  Alireza Tamaddoni-Nezhad, 
 Efficient Abductive Learning of Microbial Interactions using Meta Inverse Entailment,  
@@ -139,7 +139,7 @@ _Please refer to [ancestor relation learning problem](https://github.com/danyvar
 PyGol can also perform automatic predicate invention and for that **pi** varibale should set as True. 
 
 ```Python
-model= pygol.pygol_learn(_ ,_ , ... , rule_noise_check = True, recursive = True)
+model= pygol.pygol_learn(_ ,_ , ... ,  pi = True)
 ```
 
 _Please refer to [grandparent relation learning problem](https://github.com/danyvarghese/PyGol/tree/main/examples/grand_parent)._
@@ -150,6 +150,11 @@ _Please refer to [grandparent relation learning problem](https://github.com/dany
 - ILP abduction (Reasoning) :- **pygol_abduction()**
 
 For further information, please find the [manual](https://github.com/danyvarghese/PyGol/blob/debbe3024fda4cfaf33936e76dfd9455e455c39c/Manual_Pygol.pdf).
+
+## Publications
+* Didac Barroso-Bergada, Alireza Tamaddoni-Nezhad, Dany Varghese, Corinne Vacher, Nika Galic, Valérie Laval, Frédéric Suffert, David A Bohan. [Unravelling the web of dark interactions: Explainable inference of the diversity of microbial interactions](https://www.sciencedirect.com/science/article/abs/pii/S0065250423000053?via%3Dihub).  Advances in Ecological Research, 2023.
+* Dany Varghese, Roman Bauer, Alireza Tamaddoni-Nezhad. [Few-Shot Learning of Diagnostic Rules for Neurodegenerative Diseases Using Inductive Logic Programming](https://link.springer.com/chapter/10.1007/978-3-031-49299-0_8). Lecture Notes in Computer Science, Springer, 2023.
+*  Dany Varghese, Uzma Patel, Paul Krause & Alireza Tamaddoni-Nezhad. [Few-Shot Learning for Plant Disease Classification Using ILP](https://link.springer.com/chapter/10.1007/978-3-031-35641-4_26). Communications in Computer and Information Science, Springer, 2022.
 
 ## Bug reports and feature requests
 Please submit all bug reports and feature requests as issues on this GitHub repository.
