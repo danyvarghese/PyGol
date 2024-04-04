@@ -156,5 +156,8 @@ For further information, please find the [manual](https://github.com/danyvarghes
 * Dany Varghese, Roman Bauer, Alireza Tamaddoni-Nezhad. [Few-Shot Learning of Diagnostic Rules for Neurodegenerative Diseases Using Inductive Logic Programming](https://link.springer.com/chapter/10.1007/978-3-031-49299-0_8). Lecture Notes in Computer Science, Springer, 2023.
 *  Dany Varghese, Uzma Patel, Paul Krause & Alireza Tamaddoni-Nezhad. [Few-Shot Learning for Plant Disease Classification Using ILP](https://link.springer.com/chapter/10.1007/978-3-031-35641-4_26). Communications in Computer and Information Science, Springer, 2022.
 
+## Packages
+* **[InfIntE](https://github.com/didacb/InfIntE)**: InfIntE stands for Inference of Interactions using Explainable machine learning. This package uses abundance data to directly infer ecological interactions using PyGol, an Abductive/Inductive logic program, classified by their interaction type.
+
 ## Bug reports and feature requests
 Please submit all bug reports and feature requests as issues on this GitHub repository.
