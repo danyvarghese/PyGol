@@ -9,6 +9,11 @@ Dany Varghese, Didac Barroso-Bergada, David A. Bohan  and  Alireza Tamaddoni-Nez
 Efficient Abductive Learning of Microbial Interactions using Meta Inverse Entailment,  
 In Proceedings of the 31st International Conference on ILP, Springer, 2022.
 ```
+- [License](#License)
+- [Contributions](#Contributions)
+- [Requirements](#Requirements)
+- [Using PyGol](#Using PyGol)
+## License
 Anyone wishing to use PyGol for commercial purposes should contact either Dany Varghese(dany.varghese@surrey.ac.uk) or Alireza Tamaddoni-Nezhad(a.tamaddoni-nezhad@surrey.ac.uk).
 
 ## Contributions
