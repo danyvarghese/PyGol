@@ -15,7 +15,6 @@ setup(
     install_requires=[
         'graphviz',
         'tqdm',
-        'shutil',
         'numpy',
         'more-itertools',
         'texttable',
