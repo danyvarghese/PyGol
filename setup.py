@@ -18,7 +18,6 @@ setup(
         'numpy',
         'more-itertools',
         'texttable',
-        'janus-swi',
         'Pillow',
         'IPython',
         'requests',
