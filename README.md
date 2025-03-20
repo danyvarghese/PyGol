@@ -12,7 +12,8 @@ In Proceedings of the 31st International Conference on ILP, Springer, 2022.
 - [License](#License)
 - [Contributions](#Contributions)
 - [Requirements](#Requirements)
-- [Using PyGol](#Using PyGol)
+- [Installation](#Installation)
+- [Example](#Example Problem)
 ## License
 Anyone wishing to use PyGol for commercial purposes should contact either Dany Varghese(dany.varghese@surrey.ac.uk) or Alireza Tamaddoni-Nezhad(a.tamaddoni-nezhad@surrey.ac.uk).
 
@@ -28,7 +29,7 @@ Anyone wishing to use PyGol for commercial purposes should contact either Dany V
 * [Janus-swi](https://github.com/SWI-Prolog/packages-swipy)
 * [Cython](https://cython.org/)
 
-## Using PyGol
+## Installation
 **PyGol** package is provided as a **C** code. The shared-object file **pygol.so** runs in Python. The current shared-object file is compiled for **Mac M1** systems.
 
 For all other systems, you can find the **C** code  and convert it to shared-object by executing the **generate_so.py** by following commands;
