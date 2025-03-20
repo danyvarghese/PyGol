@@ -13,7 +13,7 @@ In Proceedings of the 31st International Conference on ILP, Springer, 2022.
 - [Contributions](#Contributions)
 - [Requirements](#Requirements)
 - [Installation](#Installation)
-- [Example](#Example Problem)
+- [Example](#Example)
 ## License
 Anyone wishing to use PyGol for commercial purposes should contact either Dany Varghese(dany.varghese@surrey.ac.uk) or Alireza Tamaddoni-Nezhad(a.tamaddoni-nezhad@surrey.ac.uk).
 
@@ -37,7 +37,7 @@ For all other systems, you can find the **C** code  and convert it to shared-obj
 ```cmd
 python3 generate_so.py build_ext --inplace
 ```
-## Example Problem
+## Example
 PyGol requires four inputs, either in the form of files or a list
 1. Background knowledge (BK)
 2. Positive example
