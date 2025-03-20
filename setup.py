@@ -13,13 +13,9 @@ setup(
     packages=find_packages(),
     ext_modules=[module],
     install_requires=[
-        'inspect',
         'graphviz',
         'tqdm',
-        'string',
-        'pickle-mixin',
         'shutil',
-        'random2',
         'numpy',
         'more-itertools',
         'texttable',
