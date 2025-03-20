@@ -1,10 +1,39 @@
-from setuptools import setup, Extension
+
+from setuptools import setup, Extension, find_packages
 
 module = Extension('PyGol', sources=['PyGol.c'])
 
 setup(
     name='PyGol',
     version='1.0',
-    description='C extension module for Python',
-    ext_modules=[module]
+    description='PyGol is an ILP system',
+    author='Dany Varghese',
+    author_email='dany.varghese@surrey.ac.uk',
+    url='https://github.com/danyvarghese/PyGol',  
+    packages=find_packages(),
+    ext_modules=[module],
+    install_requires=[
+        'inspect',
+        'graphviz',
+        'tqdm',
+        'string',
+        'pickle-mixin',
+        'shutil',
+        'random2',
+        'numpy',
+        'more-itertools',
+        'texttable',
+        'janus-swi',
+        'Pillow',
+        'IPython',
+        'requests',
+        'beautifulsoup4',
+        'pandas'
+    ],
+    classifiers=[
+        'Programming Language :: Python :: 3',
+        'License :: OSI Approved :: Creative Commons Attribution-NonCommercial 4.0 International License (CC BY-NC 4.0)',
+        'Operating System :: OS Independent',
+    ],
+    python_requires='>=3.6',
 )
