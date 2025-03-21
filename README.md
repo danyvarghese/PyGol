@@ -30,12 +30,10 @@ Anyone wishing to use PyGol for commercial purposes should contact either Dany V
 * [Cython](https://cython.org/)
 
 ## Installation
-**PyGol** package is provided as a **C** code. The shared-object file **pygol.so** runs in Python. The current shared-object file is compiled for **Mac M1** systems.
-
-For all other systems, you can find the **C** code  and convert it to shared-object by executing the **generate_so.py** by following commands;
+Install PyGol with the command;
 
 ```cmd
-python3 generate_so.py build_ext --inplace
+pip install git+https://github.com/danyvarghese/PyGol.git@main
 ```
 ## Example
 PyGol requires four inputs, either in the form of files or a list
