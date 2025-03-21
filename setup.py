@@ -12,7 +12,18 @@ setup(
     url='https://github.com/danyvarghese/PyGol',  
     packages=find_packages(),
     ext_modules=[module],
-    
+    install_requires=[
+        'graphviz',
+        'tqdm',
+        'numpy',
+        'more-itertools',
+        'texttable',
+        'Pillow',
+        'IPython',
+        'requests',
+        'beautifulsoup4',
+        'pandas'
+    ],
     classifiers=[
         'Programming Language :: Python :: 3',
         'License :: OSI Approved :: Creative Commons Attribution-NonCommercial 4.0 International License (CC BY-NC 4.0)',
